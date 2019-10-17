@@ -1,6 +1,4 @@
 #!/bin/sh
-#eval `ssh-agent`
-#ssh-add /vagrant/keys/key
 
 ansible -u vagrant -m ping web1
 ansible -u vagrant -m ping app
